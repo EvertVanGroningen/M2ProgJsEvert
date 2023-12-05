@@ -1,3 +1,13 @@
+function argumentsAreHandy(shoutout)
+{
+    console.log("do you want to give a shoutout?");
+    console.log(shoutout);
+}
+
+argumentsAreHandy("Super Shout out");
+argumentsAreHandy("You are uncool");
+argumentsAreHandy("Laser shooting dinosaur");
+
 function superMooieGlobalFunction()
 {
     console.log("ik ben global");
