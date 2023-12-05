@@ -4,23 +4,23 @@ class App
     {
         console.log("hello world!");
         //code gaat hier!
-        this.appNaam = ("String");
-        this.versienummer = (1 + "," + 1);
-        this.versiedatum = (21 + "-" + 11 + "-" + 2023);
-        this.autheur = ("Everardus");
-        this.copyright = ("The Council");
-        this.distributeur = ("Enkhuizen");
-        this.darkmode = (true);
+        this.appNaam = "String";
+        this.versienummer = 1 + "," + 1;
+        this.versiedatum = 21 + "-" + 11 + "-" + 2023;
+        this.autheur = "Everardus";
+        this.copyright = "The Council";
+        this.distributeur = "Enkhuizen";
+        this.darkmode = true;
         this.greeting = "Starting up";
-        let connection = (true);
-        let versietijd = (15 + ":" + 38);
-        let creatorStatus = ("Alive");
+        let connection = true;
+        let versietijd = 15 + ":" + 38;
+        let creatorStatus = "Alive";
         console.log("Connection: " + connection);
         console.log("Versietijd: " + versietijd);
         console.log("Creator status: " + creatorStatus);
-        this.lagging = (false);
-        this.EndWorld = (4093);
-        this.WorldStatus = ("Not Exploded");
+        this.lagging = false;
+        this.EndWorld = 4093;
+        this.WorldStatus = "Not Exploded";
     }
 }
 

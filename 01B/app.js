@@ -4,13 +4,13 @@ class App
     {
         console.log("hello world!");
         //code gaat hier!
-        this.appNaam = ("String");
-        this.versienummer = (1 + "," + 1);
-        this.versiedatum = (21 + "-" + 11 + "-" + 2023);
-        this.autheur = ("Everardus");
-        this.copyright = ("The Council");
-        this.distributeur = ("Enkhuizen");
-        this.darkmode = (true);
+        this.appNaam = "String";
+        this.versienummer = 1 + "," + 1;
+        this.versiedatum = 21 + "-" + 11 + "-" + 2023;
+        this.autheur = "Everardus";
+        this.copyright = "The Council";
+        this.distributeur = "Enkhuizen";
+        this.darkmode = true;
         this.greeting = "Starting up";
     }
 }
