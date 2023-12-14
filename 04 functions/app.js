@@ -80,11 +80,33 @@ class App
         console.log("hello world in de nieuwe class function")
     }
 
-    anotherFunctionWithArguments()
+    anotherFunctionWithArguments(aArgument)
     {
         console.log("kom maar met je argument");
         console.log("hier:");
         console.log(aArgument);
+    }
+
+    SuperMario64()
+    {
+        console.log("MARIO!!");
+    }
+
+    Bowser()
+    {
+        let Roar = "BWAHAHA!!!"
+        return Roar
+    }
+
+    KwikMeths(s,g)
+    {
+        let calc = s + g
+        return calc
+    }
+
+    ZelfBedacht()
+    {
+        console.log("continue?")
     }
 }
 
@@ -92,3 +114,7 @@ let app = new App();
 app.runApplication();
 app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is dat 1 gedeeld door 0 oneindig is");
+app.SuperMario64();
+console.log(app.Bowser());
+console.log(app.KwikMeths(31930,10139));
+app.ZelfBedacht();
