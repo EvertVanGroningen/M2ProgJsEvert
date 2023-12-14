@@ -74,7 +74,21 @@ class App
         superMooieGlobalFunction();
         //code gaat hier!
     }
+
+    newClassFunction()
+    {
+        console.log("hello world in de nieuwe class function")
+    }
+
+    anotherFunctionWithArguments()
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:");
+        console.log(aArgument);
+    }
 }
 
 let app = new App();
 app.runApplication();
+app.newClassFunction();
+app.anotherFunctionWithArguments("mijn argument is dat 1 gedeeld door 0 oneindig is");
