@@ -19,6 +19,17 @@ class App
             const element3 = Artists[i];
             console.log(i + ": " + element3);
         }
+        Artists.push("Bob Dylan", "Prince");
+        for (let i = 0; i < Artists.length; i++) {
+            const element4 = Artists[i];
+            console.log(i + ": " + element4);
+        }
+        Artists.splice(7, 8);
+        Artists.push("Kanaria", "James Landino");
+        for (let i = 0; i < Artists.length; i++) {
+            const element5 = Artists[i];
+            console.log(i + ": " + element5);
+        }
     }
 }
 
