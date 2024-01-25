@@ -1,4 +1,4 @@
-class App
+class App 
 {
     runApplication()
     {
@@ -30,6 +30,26 @@ class App
             const element5 = Artists[i];
             console.log(i + ": " + element5);
         }
+        let headers = document.getElementsByTagName("h1");
+        for (let i = 0; i < headers.length; i++) {
+            const element6 = headers[i];
+            console.log(element6);
+        }
+        let headersByCssClass = document.getElementsByClassName("GameName");
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            const element7 = headersByCssClass[i];
+            console.log(element7);
+        }
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            headersByCssClass[i].innerText = "huh????"
+            const element8 = headersByCssClass[i];
+            console.log(element8)
+        }
+        headersByCssClass[0].innerText = "nieuws";
+        headersByCssClass[1].innerText = "reviews";
+        headersByCssClass[2].innerText = "commentaar";
+        headersByCssClass[3].innerText = "beste forum posts";
+        headersByCssClass[4].innerText = "pricewatch";
     }
 }
 
