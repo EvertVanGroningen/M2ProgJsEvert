@@ -50,6 +50,9 @@ class App
         headersByCssClass[2].innerText = "commentaar";
         headersByCssClass[3].innerText = "beste forum posts";
         headersByCssClass[4].innerText = "pricewatch";
+        for(let i = 0; i < headersByCssClass.length; i++){
+            headersByCssClass[i].innerHTML=i +": "+headersByCssClass[i].innerHTML ;
+        }
     }
 }
 
